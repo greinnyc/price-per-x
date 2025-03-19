@@ -3,8 +3,6 @@
 import React from 'react';
 import { Button, Form, Input } from 'antd';
 
-type LayoutType = Parameters<typeof Form>[0]['layout'];
-
 export default function Home() {
   const [form] = Form.useForm();
 
